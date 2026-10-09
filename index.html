@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Sharoon Sunny | Language, Learning & Writing</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f7f4ec;
+      color: #292e29;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    header, main, footer {
+      max-width: 1000px;
+      margin: auto;
+      padding: 24px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    nav a, .card a {
+      color: #23483c;
+    }
+    h1, h2 {
+      font-family: Georgia, serif;
+      font-weight: normal;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+    }
+    .hero {
+      padding: 65px 0;
+      max-width: 750px;
+    }
+    .eyebrow {
+      color: #23483c;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+    }
+    .intro {
+      color: #64695f;
+      font-size: 1.15rem;
+    }
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin: 20px 0 60px;
+    }
+    .card {
+      border: 1px solid #d8d8cb;
+      border-radius: 8px;
+      padding: 24px;
+    }
+    .card p {
+      color: #64695f;
+    }
+    footer {
+      border-top: 1px solid #d8d8cb;
+      color: #64695f;
+    }
+    @media (max-width: 600px) {
+      .sections { grid-template-columns: 1fr; }
+      .hero { padding: 35px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>Dr. Sharoon Sunny</strong>
+      <div>
+        <a href="#academia">Academia</a> |
+        <a href="#teaching">Teaching</a> |
+        <a href="#writing">Writing</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <p class="eyebrow">
+        Applied Linguistics · Language Education · Writing
+      </p>
+      <h1>Language, learning, and the work of writing.</h1>
+      <p class="intro">
+        Welcome to my academic and creative space.
+        Explore my research, resources for teachers,
+        and writing on language, education and experience.
+      </p>
+    </section>
+  </header>
+  <main>
+    <section class="sections">
+      <article class="card" id="academia">
+        <h2>Academia</h2>
+        <p>Research, publications and projects in language education.</p>
+        <a href="academia.html">Explore academic work →</a>
+      </article>
+      <article class="card" id="teaching">
+        <h2>Teaching Resources</h2>
+        <p>Activities and resources for teachers and teacher educators.</p>
+        <a href="teaching.html">Explore resources →</a>
+      </article>
+      <article class="card" id="writing">
+        <h2>Writing</h2>
+        <p>Essays, creative nonfiction, stories and reflections.</p>
+        <a href="writing.html">Read my writing →</a>
+      </article>
+      <article class="card">
+        <h2>Teacher Space</h2>
+        <p>A future members-only area for selected teaching resources.</p>
+        <p>Private access will be added in a later stage.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Dr. Sharoon Sunny · Academic and creative work</p>
+  </footer>
+</body>
+</html>
